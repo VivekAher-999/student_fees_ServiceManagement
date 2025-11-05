@@ -19,6 +19,7 @@ import com.example.service.StudentService;
 @RestController
 @RequestMapping("/students")
 public class StudentController {
+	
 	private final StudentRepository repo;
 
 	@Autowired
